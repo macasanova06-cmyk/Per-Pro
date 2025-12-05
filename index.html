@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Soccer Crew — Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS unificado (el que ya tienes con los tabs al final) -->
+  <link rel="stylesheet" href="styles/site-plan.css">
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <img src="Images/logo.png" alt="Soccer Crew logo">
+      <h1>Soccer Crew</h1>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="training.html">Training</a>
+      <a href="community.html">Community</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="home-layout">
+      <!-- Hero / Intro -->
+      <section class="hero">
+        <h2>Learn, Practice, Connect</h2>
+        <p>
+          Welcome to Soccer Crew — a simple hub for beginners, parents, and grassroots coaches
+          who want clear, practical help to improve their soccer skills and training sessions.
+        </p>
+        <a class="cta" href="training.html">Start Training</a>
+      </section>
+
+      <!-- Home content paragraphs -->
+      <section class="home-content">
+        <article>
+          <h3>Why Soccer Crew Exists</h3>
+          <p>
+            Soccer Crew exists to help beginners and amateur coaches feel confident on the field.
+            Many players want to improve their control, passing, and shooting, but they do not know
+            where to start or how to practice in a smart way. At the same time, many parents or
+            grassroots coaches are asked to run a training session without having any formal
+            coaching background. This site gives them simple, clear plans they can follow. Each
+            visit to Soccer Crew should make the game feel less confusing and more fun, so players
+            and coaches can enjoy soccer instead of feeling lost.
+          </p>
+        </article>
+
+        <article>
+          <h3>Who This Site Is For</h3>
+          <p>
+            The main audience for Soccer Crew is beginner and intermediate players, new coaches,
+            and supportive parents who want to help their children. The content is written in
+            simple English and occasionally in Spanish so that people from different countries
+            can understand the ideas. A young player can read a drill description and try it alone
+            in a park. A busy coach can quickly print a session and use it that same evening.
+            Parents who may not know much about soccer can still understand the goals of each
+            activity and how to encourage their kids during practice.
+          </p>
+        </article>
+
+        <article>
+          <h3>Why People Will Come to the Site</h3>
+          <p>
+            People will come to Soccer Crew because they are looking for clear, step-by-step help
+            instead of random social media clips. Visitors want to know how to warm up safely,
+            what drills are best for their age, and how to organize a complete training session
+            in 60 minutes or less. They also want to see how basic tactics work in real games,
+            like how to defend as a team or how to create space in attack. Soccer Crew answers
+            these questions with short explanations, diagrams, and printable practice plans that
+            are easy to follow.
+          </p>
+        </article>
+
+        <article>
+          <h3>Questions the Home Page Will Answer</h3>
+          <p>
+            The home page will answer basic questions such as “What is Soccer Crew?”,
+            “Is this site for my level?”, and “Where should I start?”. New visitors will see a
+            simple explanation of the project and three main paths: Learn, Practice, and Connect.
+            Under “Learn,” they will find key articles about dribbling, passing, shooting, and
+            positions. Under “Practice,” they will see links to beginner training plans. Under
+            “Connect,” they will learn how to join the community, participate in challenges, or
+            ask questions. The home page gives a quick overview so visitors do not feel
+            overwhelmed.
+          </p>
+        </article>
+      </section>
+
+      <!-- Home images -->
+      <section class="home-images">
+        <h2>On the field with Soccer Crew</h2>
+        <figure>
+          <img src="Images/home-ball-control.png" alt="Player practicing ball control drill">
+          <figcaption>Simple ball control drills to build confidence.</figcaption>
+        </figure>
+        <figure>
+          <img src="Images/home-community-collage.png" alt="Soccer players and coaches training together">
+          <figcaption>A community of players, parents, and coaches learning together.</figcaption>
+        </figure>
+      </section>
+    </div>
+
+    <!-- 🔻 NUEVO: Componente de Tabs 🔻 -->
+    <section class="tabs-section">
+      <h2>Where should I start?</h2>
+
+      <div class="tabs-wrapper">
+        <!-- Botones de los tabs -->
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'Players')" id="defaultOpen">
+            For Players
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'Coaches')">
+            For Coaches
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'Parents')">
+            For Parents
+          </button>
+        </div>
+
+        <!-- Contenido: Players -->
+        <div id="Players" class="tabcontent">
+          <h3>For Players</h3>
+          <p>
+            If you are a beginner or intermediate player, start with basic ball control,
+            passing, and shooting drills. You can practice most of them alone or with one friend
+            in a small space like a park or backyard.
+          </p>
+          <p>
+            Visit the Training page to find simple sessions that focus on first touch, dribbling
+            in tight spaces, and finishing with both feet.
+          </p>
+        </div>
+
+        <!-- Contenido: Coaches -->
+        <div id="Coaches" class="tabcontent">
+          <h3>For Coaches</h3>
+          <p>
+            New or volunteer coaches can begin with ready-to-use 60 minute sessions. Each outline
+            includes a warm-up, 1–2 technical drills, and a small-sided game to finish.
+          </p>
+          <p>
+            Use these plans to save time and give structure to your practices while still keeping
+            things fun and clear for your players.
+          </p>
+        </div>
+
+        <!-- Contenido: Parents -->
+        <div id="Parents" class="tabcontent">
+          <h3>For Parents</h3>
+          <p>
+            Parents who want to support their children can learn what each drill is trying to
+            develop and how to encourage effort instead of only results.
+          </p>
+          <p>
+            You do not need to be a soccer expert. Simple tips on positive feedback, basic
+            safety, and realistic expectations can make the experience better for the whole
+            family.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- 🔺 FIN componente de Tabs 🔺 -->
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Soccer Crew &mdash; Marvin Casanova &mdash; WDD 130</p>
+    <p><a href="site-plan.html">View Site Plan</a></p>
+  </footer>
+
+  <!-- 🔻 JavaScript para los tabs (debe ir antes de </body>) 🔻 -->
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+
+      // Oculta todo el contenido de los tabs
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Quita la clase "active" de todos los botones
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Muestra el tab actual y marca el botón como activo
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Abre por defecto el primer tab al cargar la página
+    document.addEventListener("DOMContentLoaded", function () {
+      var defaultButton = document.getElementById("defaultOpen");
+      if (defaultButton) {
+        defaultButton.click();
+      }
+    });
+  </script>
+  <!-- 🔺 Fin JavaScript tabs 🔺 -->
+</body>
+</html>
